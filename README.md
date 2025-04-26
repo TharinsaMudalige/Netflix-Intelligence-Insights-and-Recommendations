@@ -16,7 +16,7 @@ The project is divided into two main parts:
 **How to run**
 
 Step 1: Download the Project Folder
-- Download the streamlit_interface folder above.
+- Download the Streamlit_Interface folder above.
 - Open the folder in Visual Studio Code (VS Code).
 
 Step 2: Download the Required Files
@@ -40,7 +40,7 @@ Netflix-Intelligence-Insights-and-Recommendations/
 
 │
 
-├── streamlit_interface/   
+├── Streamlit_Interface/   
 
 │    ├── app.py
 
@@ -48,7 +48,7 @@ Netflix-Intelligence-Insights-and-Recommendations/
 
 │
 
-├── notebooks/
+├── Notebooks/
 
 │    └── Netflix-Intelligence-Insights-and-Recommendations.ipynb  
 
