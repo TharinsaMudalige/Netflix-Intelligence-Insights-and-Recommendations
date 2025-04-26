@@ -13,6 +13,32 @@ The project is divided into two main parts:
 - Data Analyst Role - Preprocessed the Netflix dataset, created visualizations (Top genres, Trends, Ratings, Content by country), and built a dashboard.
 - Data Scientist Role - Built a content-based recommendation system using TF-IDF vectorization and cosine similarity. Developed a Streamlit web app to interact with the recommendation model.
 
+**Model Logic**
+
+Feature Engineering:
+
+- The movie genres and descriptions were combined into a single text field for each movie.
+
+Text Vectorization:
+
+- The combined text for all movies was transformed into numerical form using TF-IDF vectorization, which gives importance to unique and meaningful words.
+
+Similarity Calculation:
+
+- Using the TF-IDF vectors, the cosine similarity between every pair of movies was calculated.
+
+- The cosine similarity score represents how closely related two movies are based on their text content.
+
+Precomputed Similarity Matrix:
+
+- All similarity scores were stored in a cosine similarity matrix, so the model doesn't need to recalculate similarities every time.
+
+Recommendation Logic:
+
+- For any given movie, the model finds its corresponding row in the cosine similarity matrix using the recommendation function.
+
+- It then sorts other movies based on similarity scores and selects the top 5 most similar movies as recommendations.
+
 **How to run**
 
 Step 1: Download the Project Folder
