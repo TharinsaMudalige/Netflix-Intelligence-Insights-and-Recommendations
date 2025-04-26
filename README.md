@@ -37,17 +37,29 @@ Step 4: Run the Streamlit Application
 **Folder Structure**
 
 Netflix-Intelligence-Insights-and-Recommendations/
+
 │
-├── streamlit_interface/                  
+
+├── streamlit_interface/   
+
 │    ├── app.py
+
 │    └── requirements.txt
+
 │
+
 ├── notebooks/
-│    └── Netflix-Intelligence-Insights-and-Recommendations.ipynb     
+
+│    └── Netflix-Intelligence-Insights-and-Recommendations.ipynb  
+
 │
+
 ├── README.md
-└── README images/                
+
+└── README images/
+
      ├── screenshot(100).png
+     
      └── screenshot(101).png
 
 **Streamlit Interface**
